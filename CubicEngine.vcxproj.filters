@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{58b6b428-2f2a-4a0b-adc7-e54a025e7d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{fe30173f-99f4-420c-bdb0-a6e18298b284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Containers">
+      <UniqueIdentifier>{d1c78e5c-18ac-4d7a-b41f-6e390843b287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Display">
+      <UniqueIdentifier>{4249afd2-7192-43f7-9280-2673d2f1415a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Utilities">
+      <UniqueIdentifier>{f1c1879e-ec7a-47e9-8b0a-d5648b3202cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Generators">
+      <UniqueIdentifier>{f0ca2cf1-d864-42fd-b053-d11c6ecdbf02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Display\3D">
+      <UniqueIdentifier>{903ac194-75fa-4165-9f26-93f498257561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Display\2D">
+      <UniqueIdentifier>{596df467-b543-4d6e-bdba-325a6b09b181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\System">
+      <UniqueIdentifier>{6244dae3-5339-4fea-8fd9-96fc78ca297a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{b45b7bec-6951-4905-9a44-1b7cf17beb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{7d3bb391-81ce-4995-be64-27140086556c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Utilities">
+      <UniqueIdentifier>{e8c3311f-96db-4887-b9df-25956e5dfc45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\System">
+      <UniqueIdentifier>{6a55ce31-83e2-443f-b442-7fa26cdb0948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Container">
+      <UniqueIdentifier>{6606a7ca-1d15-45cb-8f88-d71a5d5165be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Display">
+      <UniqueIdentifier>{46acf020-d14c-4cd2-b686-63766602e7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Generators">
+      <UniqueIdentifier>{0095d7d2-21f7-4594-b8bf-bec9c6c30e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Display\2D">
+      <UniqueIdentifier>{a6656446-bcde-47d1-a3f0-f733ca3ac8ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Display\3D">
+      <UniqueIdentifier>{4128fd46-d0de-4253-9d2d-92662aa4e47d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Data Structures">
+      <UniqueIdentifier>{363acee7-3b0c-4293-9bbf-73284f606860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Data Structures">
+      <UniqueIdentifier>{6dacac85-4c33-4869-bdde-0a29f1315089}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameClasses.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Metrics.h">
+      <Filter>Header Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GL_Debug.h">
+      <Filter>Header Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapFontContainer.h">
+      <Filter>Header Files\Engine\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="GLTextureContainer.h">
+      <Filter>Header Files\Engine\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialContainer.h">
+      <Filter>Header Files\Engine\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelContainer.h">
+      <Filter>Header Files\Engine\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectController.h">
+      <Filter>Header Files\Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>Header Files\Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayScreen.h">
+      <Filter>Header Files\Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicMesh.h">
+      <Filter>Header Files\Engine\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainGenerator.h">
+      <Filter>Header Files\Engine\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Engine\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Dimensions.h">
+      <Filter>Header Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="StringFunctions.h">
+      <Filter>Header Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject2D.h">
+      <Filter>Header Files\Engine\Display\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>Header Files\Engine\Display\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Engine\Display\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Engine\Display\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Face.h">
+      <Filter>Header Files\Engine\Display\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapFont.h">
+      <Filter>Header Files\Engine\Display\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="HudObjects.h">
+      <Filter>Header Files\Engine\Display\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineObject.h">
+      <Filter>Header Files\Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayObject.h">
+      <Filter>Header Files\Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObject.h">
+      <Filter>Header Files\Engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedObject.h">
+      <Filter>Header Files\Engine\Display\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationContainer.h">
+      <Filter>Header Files\Engine\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Engine\Display\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="OctTree.h">
+      <Filter>Header Files\Engine\Data Structures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files\Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Dimensions.cpp">
+      <Filter>Source Files\Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Source Files\Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files\Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files\Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapFontContainer.cpp">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="GLTextureContainer.cpp">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialContainer.cpp">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelContainer.cpp">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMesh.cpp">
+      <Filter>Source Files\Engine\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainGenerator.cpp">
+      <Filter>Source Files\Engine\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>Source Files\Engine\Display\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject2D.cpp">
+      <Filter>Source Files\Engine\Display\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapFont.cpp">
+      <Filter>Source Files\Engine\Display\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayScreen.cpp">
+      <Filter>Source Files\Engine\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Face.cpp">
+      <Filter>Source Files\Engine\Display\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="HudObjects.cpp">
+      <Filter>Source Files\Engine\Display\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Engine\Display\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Engine\Display\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectController.cpp">
+      <Filter>Source Files\Engine\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClasses.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment.cpp">
+      <Filter>Source Files\Engine\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Engine\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedObject.cpp">
+      <Filter>Source Files\Engine\Display\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Engine\Display\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationContainer.cpp">
+      <Filter>Source Files\Engine\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="OctTree.cpp">
+      <Filter>Source Files\Engine\Data Structures</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

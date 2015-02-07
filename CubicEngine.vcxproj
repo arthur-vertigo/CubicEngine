@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimatedObject.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AnimationContainer.h" />
+    <ClInclude Include="BitmapFont.h" />
+    <ClInclude Include="BitmapFontContainer.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="Dimensions.h" />
+    <ClInclude Include="DisplayScreen.h" />
+    <ClInclude Include="DynamicMesh.h" />
+    <ClInclude Include="DisplayObject.h" />
+    <ClInclude Include="EngineObject.h" />
+    <ClInclude Include="Environment.h" />
+    <ClInclude Include="Face.h" />
+    <ClInclude Include="GameClasses.h" />
+    <ClInclude Include="GLTextureContainer.h" />
+    <ClInclude Include="GL_Debug.h" />
+    <ClInclude Include="HudObjects.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="MaterialContainer.h" />
+    <ClInclude Include="Metrics.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="ModelContainer.h" />
+    <ClInclude Include="ObjectController.h" />
+    <ClInclude Include="OctTree.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="WorldObject.h" />
+    <ClInclude Include="StaticObject.h" />
+    <ClInclude Include="StaticObject2D.h" />
+    <ClInclude Include="StringFunctions.h" />
+    <ClInclude Include="TerrainGenerator.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Vertex.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimatedObject.cpp" />
+    <ClCompile Include="AnimationContainer.cpp" />
+    <ClCompile Include="BitmapFont.cpp" />
+    <ClCompile Include="BitmapFontContainer.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="Dimensions.cpp" />
+    <ClCompile Include="DynamicMesh.cpp" />
+    <ClCompile Include="Environment.cpp" />
+    <ClCompile Include="Face.cpp" />
+    <ClCompile Include="GameClasses.cpp" />
+    <ClCompile Include="GLTextureContainer.cpp" />
+    <ClCompile Include="HudObjects.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="ModelContainer.cpp" />
+    <ClCompile Include="ObjectController.cpp" />
+    <ClCompile Include="OctTree.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="MaterialContainer.cpp" />
+    <ClCompile Include="DisplayScreen.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="StaticObject.cpp" />
+    <ClCompile Include="StaticObject2D.cpp" />
+    <ClCompile Include="TerrainGenerator.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="Vertex.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EFBA3533-204A-432C-9C86-F8F68D530E54}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CubicEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)SDL-1.2.15\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)SDL-1.2.15\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)SDL-1.2.15\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)SDL-1.2.15\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL.lib;SDLmain.lib;SDL_image.lib;SDL_ttf.lib;SDL_mixer.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL.lib;SDLmain.lib;SDL_image.lib;SDL_ttf.lib;SDL_mixer.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

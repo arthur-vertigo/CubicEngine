@@ -1,0 +1,46 @@
+﻿Build started 1/29/2013 7:03:05 AM.
+     1>Project "D:\Documents\Work\Dropbox\Cubic Engine\CubicEngine\CubicEngine\CubicEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Environment.cpp
+         Environment.cpp
+     1>d:\documents\work\dropbox\cubic engine\cubicengine\cubicengine\environment.cpp(86): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\documents\work\dropbox\cubic engine\cubicengine\cubicengine\environment.cpp(92): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\documents\work\dropbox\cubic engine\cubicengine\cubicengine\environment.cpp(93): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\documents\work\dropbox\cubic engine\cubicengine\cubicengine\environment.cpp(94): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Work\Dropbox\Cubic Engine\CubicEngine\Debug\CubicEngine.exe" /INCREMENTAL /NOLOGO SDL.lib SDLmain.lib SDL_image.lib SDL_ttf.lib SDL_mixer.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Work\Dropbox\Cubic Engine\CubicEngine\Debug\CubicEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Work\Dropbox\Cubic Engine\CubicEngine\Debug\CubicEngine.lib" /MACHINE:X86 Debug\AnimatedObject.obj
+         Debug\AnimationContainer.obj
+         Debug\BitmapFont.obj
+         Debug\BitmapFontContainer.obj
+         Debug\Camera.obj
+         Debug\Color.obj
+         Debug\Dimensions.obj
+         Debug\DynamicMesh.obj
+         Debug\Environment.obj
+         Debug\Face.obj
+         Debug\GameClasses.obj
+         Debug\GLTextureContainer.obj
+         Debug\HudObjects.obj
+         Debug\main.obj
+         Debug\Material.obj
+         Debug\Model.obj
+         Debug\ModelContainer.obj
+         Debug\ObjectController.obj
+         Debug\OctTree.obj
+         Debug\Point.obj
+         Debug\MaterialContainer.obj
+         Debug\DisplayScreen.obj
+         Debug\Animation.obj
+         Debug\StaticObject.obj
+         Debug\StaticObject2D.obj
+         Debug\TerrainGenerator.obj
+         Debug\Texture.obj
+         Debug\Utilities.obj
+         Debug\Vector.obj
+         Debug\Vertex.obj
+         CubicEngine.vcxproj -> D:\Documents\Work\Dropbox\Cubic Engine\CubicEngine\Debug\CubicEngine.exe
+     1>Done Building Project "D:\Documents\Work\Dropbox\Cubic Engine\CubicEngine\CubicEngine\CubicEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.96

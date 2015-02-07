@@ -1,0 +1,38 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl BatmanEye_Mat
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BatmanEye_D.tga
+map_Disp BatmanEye_N_2.tga
+map_Ka BatmanEye_D.tga
+
+newmtl Batman_Armoured_Body_Mat
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BatmanArmoured_Body_D.tga
+map_Disp BatmanArmoured_Body_N.tga
+map_Ka BatmanArmoured_Body_D.tga
+
+newmtl Batman_Armoured_Head_Mat
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd BatmanArmoured_Head_D.tga
+map_Disp BatmanArmoured_Head_N.tga
+map_Ka BatmanArmoured_Head_D.tga

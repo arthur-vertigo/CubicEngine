@@ -1,0 +1,20 @@
+# Blender MTL File: 'AnimatedBox.blend'
+# Material Count: 2
+
+newmtl BoxMaterial
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.640000 0.091141
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl CorkMaterial
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.000000 0.467529
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2

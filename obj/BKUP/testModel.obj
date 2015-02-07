@@ -1,0 +1,10 @@
+#Created by Cubic Engine, ©AW-Games.com 2012-2013, All Rights Reserved
+#Vertexs
+v -1 -1 1
+v 1 -1 1
+v 1 -1 -1
+v -1 -1 -1
+#Textures
+#Faces
+f 1/0/ 2/0/ 3/0/ 
+f 3/0/ 4/0/ 2/0/ 

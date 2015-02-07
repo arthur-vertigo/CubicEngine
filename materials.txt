@@ -1,0 +1,55 @@
+#Created by Cubic Engine, ©AW-Games.com 2012-2013, All Rights Reserved
+
+newmtl Material.001
+Ns 96
+Ka 0 0 0
+Kd 0.6 0.041488 0.525355
+Ks 0.5 0.219587 0
+
+newmtl Mat.Dirt_Grass
+Ns 10
+Ka 0 0 0
+Kd 0.5 1 0.5
+Ks 0.5 0.5 0.5
+map_Kd dirt_grass.png
+
+newmtl Mat.Grass
+Ns 0
+Ka 0 0 0
+Kd 0 1 0
+Ks 0 0 0
+map_Kd grass.png
+
+newmtl Mat.Water
+Ns 64
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.5 0.5 0.5
+map_Kd water.png
+
+newmtl Mat.Dirt
+Ns 64
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.5 0.5 0.5
+map_Kd dirt.png
+
+newmtl Mat.Rock
+Ns 64
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.5 0.5 0.5
+map_Kd rock.png
+
+newmtl BoxMaterial
+Ns 96
+Ka 0 0 0
+Kd 0 0.64 0.091141
+Ks 0.5 0.5 0.5
+
+newmtl CorkMaterial
+Ns 96
+Ka 0 0 0
+Kd 0.64 0 0.467529
+Ks 0.5 0.5 0.5
+

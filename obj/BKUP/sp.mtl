@@ -1,0 +1,30 @@
+# Blender MTL File: 'UVspr.blend'
+# Material Count: 3
+
+newmtl Material.002
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.096406 0.527157
+Ks 0.169818 0.058538 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.003
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.126154 0.640000 0.173580
+Ks 0.500000 0.160000 0.160000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\\Documents\\Work\\Dropbox\\Cubic Engine\\CubicEngine\\CubicEngine\\image\\test.jpg
+
+newmtl Material.004
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.000000 0.030541
+Ks 0.068894 0.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
